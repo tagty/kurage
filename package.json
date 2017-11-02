@@ -1,0 +1,17 @@
+{
+  "name": "kurage",
+  "version": "1.0.0",
+  "description": "A minimal editor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "",
+  "keywords": [
+  ],
+  "author": "tagty",
+  "license": "",
+  "devDependencies": {
+    "electron": "~1.7.8"
+  }
+}

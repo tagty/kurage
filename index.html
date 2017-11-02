@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="index.css" rel="stylesheet">
+    <title>Kurage</title>
+  </head>
+  <body>
+    <div id="editor"># h1
+## h2</div>
+
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+
+    <!-- move this to nodejs -->
+    <!-- <script src="/ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.9/ace.js" type="text/javascript" charset="utf-8"></script>
+
+    <script>
+        var editor = ace.edit("editor");
+        editor.setTheme("ace/theme/monokai");
+        editor.getSession().setMode("ace/mode/markdown");
+    </script>
+  </body>
+</html>
