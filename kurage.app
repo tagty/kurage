@@ -1,1 +1,0 @@
-release-builds/kurage-darwin-x64/kurage.app
