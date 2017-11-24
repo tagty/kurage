@@ -6,16 +6,17 @@
     <title>Kurage</title>
   </head>
   <body>
-    <div id="editor"># h1
-## h2</div>
+    <div id="editor"></div>
 
     <script>
       // You can also require other files to run in this process
-      require('./renderer.js')
+      // require('./renderer.js')
+      const file = require('./file.js')
+      file.load()
     </script>
 
     <!-- move this to npm -->
-    <!-- <script src="/ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script> -->
+    <!-- <script src="./ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.9/ace.js" type="text/javascript" charset="utf-8"></script>
 
     <script>
