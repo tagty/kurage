@@ -4,7 +4,7 @@
   "description": "A minimal editor",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "electron --inspect .",
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=icons/kurage.icns --prune=true --out=release-builds"
   },
   "repository": "https://github.com/tagty/kurage",
@@ -16,7 +16,5 @@
   "devDependencies": {
     "electron": "^1.7.10"
   },
-  "dependencies": {
-    "remote": "^0.2.6"
-  }
+  "dependencies": {}
 }
