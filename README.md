@@ -4,11 +4,10 @@ Kurage is a transparent text editor, built on Electron.
 Download [here](https://github.com/tagty/kurage/releases/latest) for Mac.
 
 ## Todo
-- Background color
 - Test & Release
 - [electron-builder | Docker](https://www.electron.build/multi-platform-build)
 - Screenshot
-- ace on npm
+- Use ace with npm
 - [Devtron](https://electronjs.org/devtron)
 - [Spectron](https://electronjs.org/spectron)
 - Handle error

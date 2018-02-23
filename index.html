@@ -21,7 +21,6 @@ electron.ipcRenderer.on('writeFileSyncMemo', () => {
   fs.writeFileSync("./memo.md", ace.edit("editor").getValue())
   console.log("Memo was saved!")
 })
-
     </script>
 
     <!-- move this to npm -->
