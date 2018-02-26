@@ -11,7 +11,6 @@ $ npm run package-mac
 ```
 
 ## Todo
-- Test & Release
 - Screenshot
 - Dialog is broken when packaged
 - Use DevTools only development environment
