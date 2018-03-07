@@ -7,15 +7,15 @@ Download [here](https://github.com/tagty/kurage/releases/latest) for Mac.
 
 ## Commands
 ```
+$ npm install
+$ npm start
 $ npm run package-mac
 ```
 
 ## Todo
-- Screenshot
-- Dialog is broken when packaged
-- Use DevTools only development environment
 - Open a file from shortcut
-- Use ace with npm
+- Use DevTools only development environment
+- Dialog is broken when packaged
 - Create src directory
 - [Devtron](https://electronjs.org/devtron)
 - [Spectron](https://electronjs.org/spectron)

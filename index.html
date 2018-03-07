@@ -7,7 +7,6 @@
   </head>
   <body>
     <div id="editor"></div>
-
     <script>
 // You can also require other files to run in this process
 // require('./renderer.js')
@@ -23,11 +22,7 @@ electron.ipcRenderer.on('writeFileSyncMemo', () => {
   console.log("Memo was saved!")
 })
     </script>
-
-    <!-- move this to npm -->
-    <!-- <script src="./ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.9/ace.js" type="text/javascript" charset="utf-8"></script>
-
+    <script src="./node_modules/ace-builds/src-min/ace.js" type="text/javascript" charset="utf-8"></script>
     <script>
 var editor = ace.edit("editor");
 editor.setTheme("ace/theme/monokai");
